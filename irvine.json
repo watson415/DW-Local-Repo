@@ -1,0 +1,569 @@
+{
+  "name": "Irvine",
+  "designation": "commercial",
+  "construction year": 2016,
+  "SGIP year": 2014,
+  "annual battery cycles": 200,
+  "native CRL": "50%",
+  "post-battery CRL": "0-100%",
+  "unit charge rate": 250,
+  "unit discharge rate": 250,
+  "xxxxxxxxxxdata path": "${DROPBOX_ROOT}/Load Data/Data Cleaned By Liliya",
+  "data file" : "/Users/coreyperlmutter/Documents/gitrepo/AMS-Web/optimization/battery/data/excel/IrvineLoadInputForPython_filled6.xlsx",
+  "meters": [
+    {
+      "label": "8001IrvineCenter",
+      "scenarios": [
+        {
+          "label": "8001IrvineCenter",
+          "enable": true,
+          "pre optimization utility-imported load": "S1M1_8001 Irvine Center",
+          "xxxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-012-1899-62",
+          "meter number": "V349N-001838",
+                  "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza1",
+      "scenarios": [
+        {
+          "label": "ParkPlaza1",
+          "enable": true,
+          "pre optimization utility-imported load": "S9M1_Park Plaza 1",
+          "service account": "3-012-3957-12",
+          "meter number": "V349P-000310",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza2",
+      "scenarios": [
+        {
+          "label": "ParkPlaza2",
+          "enable": true,
+          "pre optimization utility-imported load": "S10M1_Park Plaza 2",
+          "service account": "3-012-3957-13",
+          "meter number": "V349N-010878",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+
+    {
+      "label": "ParkPlaza1&2CNP",
+      "scenarios": [
+        {
+          "label": "ParkPlaza1&2CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S11M1_Park Plaza 1&2 CNP",
+          "service account": "3-004-9876-03",
+          "meter number": "V349N-018785",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 2,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza3_S",
+      "scenarios": [
+        {
+          "label": "ParkPlaza3_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S12_Park Plaza 3",
+          "service account": "3-012-2702-23",
+          "meter number": [
+            "V349N-010892",
+            "V349N-010891"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza3CNP",
+      "scenarios": [
+        {
+          "label": "ParkPlaza3CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S13M1_Park Plaza 3 CNP",
+          "service account": "3-012-2733-30",
+          "meter number": "V349N-012612",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 2,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza4_S",
+      "scenarios": [
+        {
+          "label": "ParkPlaza4_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S14_Park Plaza 4",
+          "service account": "3-012-2702-24",
+          "meter number": ["V349P-006261, V349P-006036"],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza4CNP",
+      "scenarios": [
+        {
+          "label": "ParkPlaza4CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S15M1_Park Plaza 4 CNP",
+          "service account": "3-012-2965-26",
+          "meter number": "V349N-015875",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 2,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza5_S",
+      "scenarios": [
+        {
+          "label": "ParkPlaza5_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S16_Park Plaza 5",
+          "service account": "3-012-2485-70",
+          "meter number": ["V349N-010880, V349N-010879"],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "ParkPlaza5CNP",
+      "scenarios": [
+        {
+          "label": "ParkPlaza5CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S17M1_Park Plaza 5 CNP",
+          "service account": "3-012-2965-25",
+          "meter number": "V349N-014708",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 2,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18100_S",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18100_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S18_Irvine Towers 18100",
+          "service account": "3-030-4168-31",
+          "meter number": [
+            "V349N-005244",
+            "V349N-005262"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18200",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18200",
+          "enable": true,
+          "pre optimization utility-imported load": "S19M1_Irvine Towers 18200",
+          "service account": "3-027-2575-72",
+          "meter number": "V349N-006705",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IslandHotel_S",
+      "scenarios": [
+        {
+          "label": "IslandHotel_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S2_Island Hotel",
+          "xxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-036-9906-43",
+          "meter number": [
+            "V349P-6419",
+            "V349N-6398",
+            "V349P-184"
+          ],
+              "RA commitment": 710,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 4,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18300",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18300",
+          "enable": true,
+          "pre optimization utility-imported load": "S20M1_Irvine Towers 18300",
+          "service account": "3-027-2575-86",
+          "meter number": "V349N-008000",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18350CNP",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18350CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S21M1_Irvine Towers 18350 CNP",
+          "service account": "3-027-5865-83",
+          "meter number": "V349N-001256",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 2,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18400",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18400",
+          "enable": true,
+          "pre optimization utility-imported load": "S22M1_Irvine Towers 18400",
+          "service account": "3-027-2575-56",
+          "meter number": "V349N-004658",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "IrvineTowers18500",
+      "scenarios": [
+        {
+          "label": "IrvineTowers18500",
+          "enable": true,
+          "pre optimization utility-imported load": "S23M1_Irvine Towers 18500",
+          "service account": "3-027-2575-07",
+          "meter number": "V349P-006171",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "MacArthurCourt4675",
+      "scenarios": [
+        {
+          "label": "MacArthurCourt4675",
+          "enable": true,
+          "pre optimization utility-imported load": "S24M1_MacArthur Court 4675",
+          "service account": "3-012-3979-29",
+          "meter number": "V349P-000706",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "MacArthurCourt4695",
+      "scenarios": [
+        {
+          "label": "MacArthurCourt4695",
+          "enable": true,
+          "pre optimization utility-imported load": "S25M1_MacArthur Court 4695 ",
+          "xxxxpre optimization utility-imported load": "Data",
+          "service account": "3-012-2485-71",
+          "meter number": "V349P-006410",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+
+    {
+      "label": "NewportGateway19800&CNP",
+      "scenarios": [
+        {
+          "label": "NewportGateway19800&CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S28_Newport Gateway 19800 & CNP",
+          "xxxxpre optimization utility-imported load": "Data",
+          "service account": "3-027-2848-13",
+          "meter number": [
+            "V349N-14303",
+            "V349N-14304"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+
+
+    {
+      "label": "NewportGateway19900",
+      "scenarios": [
+        {
+          "label": "NewportGateway19900",
+          "enable": true,
+          "pre optimization utility-imported load": "S29M1_Newport Gateway 19900",
+          "xxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-027-2848-36",
+          "meter number": "V349P-000130",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "8105IrvineCenter&CNP_S",
+      "scenarios": [
+        {
+          "label": "8105IrvineCenter&CNP_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S3_8105 Irvine Center & CNP",
+                    "xxxxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-018-2526-84",
+          "meter number": [
+            "V349P-441",
+            "V349P-442"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "HotelIrvine_S",
+      "scenarios": [
+        {
+          "label": "HotelIrvine_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S30_Hotel Irvine",
+                    "xxxxpre optimization utility-imported load": "Data",
+          "service account": "3-032-8405-29",
+          "meter number": [
+            "V349N-6197",
+            "V349N-7642"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 3,
+          "battery duration": 4,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "20Pacifica_S",
+      "scenarios": [
+        {
+          "label": "20Pacifica_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S4_20 Pacifica",
+                    "xxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-030-7534-94",
+          "meter number": [
+            "V349N-4857",
+            "V349N-4854"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+
+    {
+      "label": "40Pacifica_S",
+      "scenarios": [
+        {
+          "label": "40Pacifica_S",
+          "enable": true,
+          "pre optimization utility-imported load": "S6_40 Pacifica",
+                    "xxxxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-031-4617-02",
+          "meter number": [
+            "V349N-7535",
+            "V349N-7534"
+          ],
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 2,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "PalmCourt15615Alton",
+      "scenarios": [
+        {
+          "label": "PalmCourt15615Alton",
+          "enable": true,
+          "pre optimization utility-imported load": "S7M1_Palm Court 15615 Alton",
+          "xxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-018-6284-75",
+          "meter number": "V349N-15200",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "PalmCourt15635Alton",
+      "scenarios": [
+        {
+          "label": "PalmCourt15635Alton",
+          "enable": true,
+          "pre optimization utility-imported load": "S8M1_Palm Court 15635 Alton",
+          "xxxxxpre optimization utility-imported load": "Data",
+          "service account": "3-018-6289-31",
+          "meter number": "V349N-18798",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 1,
+          "battery duration": 6,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    }
+
+  ],
+  "unused meters":[
+    {
+      "label": "MacArthurCourt4680",
+      "scenarios": [
+        {
+          "label": "MacArthurCourt4680",
+          "enable": true,
+          "pre optimization utility-imported load": "S26M1_MacArthur Court 4680",
+          "service account": "3-003-7306-54",
+          "meter number": "V349N-018059",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 0,
+          "battery duration": 0,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+    {
+      "label": "MacArthurCourt4680CNP",
+      "scenarios": [
+        {
+          "label": "MacArthurCourt4680CNP",
+          "enable": true,
+          "pre optimization utility-imported load": "S27M1_Mac Court  4680 CNP",
+          "service account": "3-000-0236-36",
+          "meter number": "259000-075642",
+              "RA commitment": 0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 0,
+          "battery duration": 0,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    },
+        {
+      "label": "30Pacifica",
+      "scenarios": [
+        {
+          "label": "30Pacifica",
+          "enable": true,
+          "pre optimization utility-imported load": "S5M1_30 Pacifica",
+          "service account": "3-029-9387-40",
+          "meter number": "259000-052291",
+              "RA commitment": 1.0,  "RA months": "6-10",     "RA dispatches per year": 100,
+          "number batteries": 0,
+          "battery duration": 0,
+          "pre-optimization rate schedule": "SCE_TOU-8-DA-FLAT",
+          "post-optimization rate schedule": "SCE_TOU-8-DA-FLAT"
+        }
+      ]
+    }
+  ]
+}
